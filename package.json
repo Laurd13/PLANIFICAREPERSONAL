@@ -1,0 +1,18 @@
+{
+  "name": "planificare-personal",
+  "version": "1.0.0",
+  "description": "Aplicatie web pentru planificarea turelor conform Codului muncii din Romania",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.6.0",
+    "dayjs": "^1.11.11",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  }
+}

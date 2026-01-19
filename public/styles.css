@@ -1,0 +1,50 @@
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.calendar-day {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 180px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+}
+
+.calendar-day h3 {
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+.shift-card {
+  border: 1px dashed #94a3b8;
+  border-radius: 8px;
+  padding: 6px;
+  margin-bottom: 6px;
+  background: #f8fafc;
+}
+
+.assignment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e0f2fe;
+  border-radius: 6px;
+  padding: 2px 6px;
+  margin: 4px 0;
+  font-size: 0.82rem;
+}
+
+.assignment.dragging {
+  opacity: 0.5;
+}
+
+.warning-highlight {
+  background-color: #fef3c7;
+}
